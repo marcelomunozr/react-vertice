@@ -1,0 +1,15 @@
+@import "mixins";
+@import "fonts";
+@import "variables";
+@import "custom-grid";
+
+
+body {
+  color: $color;
+  font-family: $coco;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
